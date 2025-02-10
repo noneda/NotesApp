@@ -1,11 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart' show Firebase;
-import 'package:notesapp/Utils/dotenv_options.dart';
-import 'package:notesapp/Utils/firebase_options.dart'
+import 'package:notesapp/Helpers/dotenv_options.dart';
+import 'package:notesapp/Helpers/firebase_options.dart'
     show DefaultFirebaseOptions;
 
-import 'package:notesapp/Apps/my_app.dart' show MyApp;
+import 'package:notesapp/Apps/try.dart' show TrySomething;
 
 void main() async {
-  runApp(const MyApp());
+//  WidgetsFlutterBinding.ensureInitialized();
+//
+//  await EnvConfig().load();
+//  await Firebase.initializeApp(
+//    options: DefaultFirebaseOptions.currentPlatform,
+//  );
+  runApp(MaterialApp(
+    title: 'Demo',
+    theme: ThemeData(primarySwatch: Colors.blue),
+    home: const TrySomething(),
+  ));
 }

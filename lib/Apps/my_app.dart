@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notesapp/Widgets/home_page.dart' show MyHomePage;
+import 'package:notesapp/Layouts/home_page.dart' show MyHomePage;
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
