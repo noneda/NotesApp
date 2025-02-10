@@ -4,7 +4,7 @@ import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
 
-import 'package:notesapp/dotenv_options.dart' show DotenvOptions;
+import 'package:notesapp/Utils/dotenv_options.dart' show DotenvOptions;
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///

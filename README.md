@@ -17,3 +17,7 @@ flutter pub add firebase_core
 
 ```
 
+
+
+> [!CAUTION]
+> Post => FUCK YOU firebase don´t can make a run App on Android for the version... FUCK YOU!!!!
