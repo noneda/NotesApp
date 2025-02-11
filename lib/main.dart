@@ -6,7 +6,7 @@ import 'package:notesapp/Helpers/firebase_options.dart'
     show DefaultFirebaseOptions;
 */
 
-import 'package:notesapp/Apps/try.dart' show TrySomething;
+import 'package:notesapp/Apps/app.dart' show TrySomething;
 
 void main() async {
 //  WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +18,7 @@ void main() async {
 
   runApp(MaterialApp(
     title: 'Demo',
-    theme: ThemeData(primarySwatch: Colors.blue),
+    theme: ThemeData(),
     home: TrySomething(),
   ));
 }
