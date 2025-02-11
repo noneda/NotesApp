@@ -5,7 +5,7 @@ class TrySomething extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    throw Container(
+    return Container(
       color: Colors.red,
     );
   }
